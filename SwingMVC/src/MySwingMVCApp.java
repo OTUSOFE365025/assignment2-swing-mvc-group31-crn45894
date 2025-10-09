@@ -9,7 +9,7 @@ public class MySwingMVCApp {
 		  Controller c = new Controller(m, v);
 		  
 		  // create scanner
-		  Scanner scanner = new Scanner();
+		  ScannerDevice scanner = new ScannerDevice(c);
 		  
 		  c.initController();
 	}
